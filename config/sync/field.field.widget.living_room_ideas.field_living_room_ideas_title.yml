@@ -1,0 +1,19 @@
+uuid: 6cce9620-9c48-4dc8-8d33-4895bb2d0ecb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.widget.field_living_room_ideas_title
+    - widget_engine.widget_type.living_room_ideas
+id: widget.living_room_ideas.field_living_room_ideas_title
+field_name: field_living_room_ideas_title
+entity_type: widget
+bundle: living_room_ideas
+label: 'living room ideas title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

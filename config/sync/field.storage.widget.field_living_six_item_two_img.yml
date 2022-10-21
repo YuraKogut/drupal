@@ -1,0 +1,30 @@
+uuid: 4cc7aa11-9ce9-449e-90fa-2e5917c0f01b
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - widget_engine
+id: widget.field_living_six_item_two_img
+field_name: field_living_six_item_two_img
+entity_type: widget
+type: image
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

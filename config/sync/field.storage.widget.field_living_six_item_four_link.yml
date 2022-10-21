@@ -1,0 +1,19 @@
+uuid: a134814d-2edc-4e91-b694-0f3fcd9a6820
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - widget_engine
+id: widget.field_living_six_item_four_link
+field_name: field_living_six_item_four_link
+entity_type: widget
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

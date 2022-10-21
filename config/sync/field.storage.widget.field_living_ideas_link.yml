@@ -1,0 +1,19 @@
+uuid: c34ea6d8-2f9c-4b6a-a4da-1b8b85a025c3
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - widget_engine
+id: widget.field_living_ideas_link
+field_name: field_living_ideas_link
+entity_type: widget
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

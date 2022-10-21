@@ -1,0 +1,27 @@
+uuid: 9b59462a-ae92-4e75-9223-762750e923bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.widget.field_most_popular
+    - widget_engine.widget_type.most_popular_on_maynooth
+  module:
+    - block_field
+id: widget.most_popular_on_maynooth.field_most_popular
+field_name: field_most_popular
+entity_type: widget
+bundle: most_popular_on_maynooth
+label: 'most popular'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    plugin_id: 'views_block:most_popular-block_1'
+    settings: {  }
+default_value_callback: ''
+settings:
+  selection: blocks
+  selection_settings:
+    plugin_ids: {  }
+field_type: block_field

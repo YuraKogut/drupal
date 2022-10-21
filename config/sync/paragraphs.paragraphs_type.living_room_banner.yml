@@ -1,0 +1,10 @@
+uuid: d12fd237-0cb4-423c-869f-d196180182b1
+langcode: en
+status: true
+dependencies: {  }
+id: living_room_banner
+label: 'living room banner'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

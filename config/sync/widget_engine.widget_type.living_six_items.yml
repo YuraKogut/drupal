@@ -1,0 +1,6 @@
+uuid: 912bdbc7-8012-4f84-b43b-b137e088f969
+langcode: en
+status: true
+dependencies: {  }
+id: living_six_items
+label: 'living six items'

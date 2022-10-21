@@ -1,0 +1,62 @@
+  {%
+    set classes = [
+      'paragraph',
+      'paragraph--type--' ~ paragraph.bundle|clean_class,
+      view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+      not paragraph.isPublished() ? 'paragraph--unpublished'
+    ]
+  %}
+      {% block paragraph %}
+    <div{{ attributes.addClass(classes) }}>
+      {% block content %}
+  <div class = "nestle_test_content container">
+  
+    {% if 'cream' in content.field_nestle_test_select_list.0 %}
+   <div {{ attributes.addClass('nestle_test_content container', 'cream-class') }}>
+    {% elseif 'light' in content.field_nestle_test_select_list.0 %}
+   <div {{ attributes.addClass('nestle_test_content container', 'white-class') }}>
+    {% endif %}
+
+    <div class = "nestle-title">
+    <h3>{{content.field_nestle_test_title.0}}</h3>
+    </div>
+    <div class = "nestle_items">
+     <div class = "nestle_item">
+     <div class = "nestle_item_image">
+     {{content.field_nestle_test_image_first}}
+     </div>
+     <div class = "nestle_item_desription">
+     {{content.field_nestle_test_descriprion_1}}
+     </div>
+     </div>
+
+     <div class = "nestle_item">
+     <div class = "nestle_item_image">
+     {{content.field_nestle_test_image_second}}
+     </div>
+     <div class = "nestle_item_desription">
+     {{content.field_nestle_test_descriprion_2}}
+     </div>
+     </div>
+
+     <div class = "nestle_item">
+     <div class = "nestle_item_image">
+     {{content.field_nestle_test_image_third}}
+     </div>
+     <div class = "nestle_item_desription">
+     {{content.field_nestle_test_descriprion_3}}
+     </div>
+     </div>
+     </div>
+
+    <div class = "nestle-link">
+     {{content.field_nestle_test_button}}
+    </div>
+      <div class = "nestle-subparagraph-content">
+      <div class = "nestle-border">
+     </div>
+        {{content.field_nestle_test_sub}}
+     </div>
+      {% endblock %}
+    </div>
+      {% endblock paragraph %}

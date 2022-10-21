@@ -1,0 +1,23 @@
+uuid: e1d383b0-6bd5-4004-8952-1798c010b6cf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.widget.field_living_six_items_one_link
+    - widget_engine.widget_type.living_six_items
+  module:
+    - link
+id: widget.living_six_items.field_living_six_items_one_link
+field_name: field_living_six_items_one_link
+entity_type: widget
+bundle: living_six_items
+label: 'living six items one link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

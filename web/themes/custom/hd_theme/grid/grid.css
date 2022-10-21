@@ -1,0 +1,88 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+  background-image:url(https://upload.wikimedia.org/wikipedia/ru/f/f6/Mortal-kombat-fighters.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.wrapper {
+	display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+}
+h1{
+  font-family: fantasy;
+  font-size: 60px;
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 23px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 200px 400px 200px;
+  grid-auto-rows: 156px 123px 210px;
+  border: 2px solid white;
+  border-width: thick;
+}
+.grid__item {
+	position: relative;
+  background-image: url(https://steamuserimages-a.akamaihd.net/ugc/843717386987918452/25D704722CB4D380A6F496DD7759FF4EF0AFC634/?imw=637&imh=358&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.grid__item_subz_scr{
+  background-image: url(https://itc.ua/wp-content/uploads/2021/05/mortal-kombat-movie.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.grid__item_second_scorpion{
+  background-image: url(https://lvgames.info/wp-content/uploads//2020/05/scorpion-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.grid__item_general_logo_mk{
+  background-image: url(https://static.posters.cz/image/1300/%D0%9F%D0%BB%D0%B0%D0%BA%D0%B0%D1%82%D0%B8/mortal-kombat-dragon-i104638.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.grid__item_subzero{
+  background-image: url(https://programmi-dlya-android.ru/wp-content/uploads/2021/07/wb_goog_mkx.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.grid__item_lm{
+  background-image: url(https://cdnimg.rg.ru/img/content/200/91/79/kinopoisk.ru-Mortal-Kombat-3422350_d_850.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.grid__item_scorpion{
+  background-image: url(https://cdna.artstation.com/p/marketplace/presentation_assets/000/190/924/large/file.jpg?1566379564);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.grid__item img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.grid__item_subz_scr {
+	grid-row: 1/3;
+	grid-column: 2;
+}
+.grid__item_general_logo_mk {
+	grid-row: 2 / 4;
+}

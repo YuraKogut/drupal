@@ -1,0 +1,19 @@
+uuid: f4a0411b-0efb-4cee-8fdc-5f5832ac988c
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_field
+    - widget_engine
+id: widget.field_most_popular
+field_name: field_most_popular
+entity_type: widget
+type: block_field
+settings: {  }
+module: block_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

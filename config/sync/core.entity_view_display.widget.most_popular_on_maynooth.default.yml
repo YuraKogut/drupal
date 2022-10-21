@@ -1,0 +1,27 @@
+uuid: 9da64a55-d2d5-4ed7-896d-11d4bf658da9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.widget.most_popular_on_maynooth.field_most_popular
+    - widget_engine.widget_type.most_popular_on_maynooth
+  module:
+    - block_field
+id: widget.most_popular_on_maynooth.default
+targetEntityType: widget
+bundle: most_popular_on_maynooth
+mode: default
+content:
+  field_most_popular:
+    type: block_field
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  user_id: true
+  widget_preview: true

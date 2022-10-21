@@ -1,0 +1,42 @@
+uuid: a5cf08f8-c36b-441d-9a9b-0a454a8b29a5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_blog_content_paragraph
+    - node.type.article
+    - paragraphs.paragraphs_type.blog_content
+    - paragraphs.paragraphs_type.blog_content_text
+  module:
+    - entity_reference_revisions
+id: node.article.field_blog_content_paragraph
+field_name: field_blog_content_paragraph
+entity_type: node
+bundle: article
+label: blog-content-paragraph
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      blog_content: blog_content
+      blog_content_text: blog_content_text
+    negate: 0
+    target_bundles_drag_drop:
+      blog_content:
+        weight: 5
+        enabled: true
+      blog_content_text:
+        weight: 6
+        enabled: true
+      inspiration:
+        weight: 7
+        enabled: false
+      product_tabs:
+        weight: 8
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,23 @@
+uuid: 06870a24-160f-418a-a075-36bf3fc37d0f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.widget.field_living_six_items_two_title
+    - widget_engine.widget_type.living_six_items
+  module:
+    - text
+id: widget.living_six_items.field_living_six_items_two_title
+field_name: field_living_six_items_two_title
+entity_type: widget
+bundle: living_six_items
+label: 'living six items two title'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

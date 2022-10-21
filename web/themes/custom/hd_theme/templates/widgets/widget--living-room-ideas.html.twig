@@ -1,0 +1,36 @@
+<div{{ attributes.addClass('widget_living_ideas') }}>
+<div class = "living_ideas_title">
+  {{ content.field_living_room_ideas_title }}
+  </div>
+  
+  {% if content %}
+  <div class = "living_ideas_content">
+<div class = "living_ideas_first_block">
+  <div class = "living_ideas_img">
+{{ content.field_living_room_ideas_img }}
+  </div>
+  </div>
+
+<div class = "living_ideas_second_block">
+  <div class = "living_ideas_second_title">
+  {{ content.field_living_room_second_title }}
+  </div>
+
+<div class = "living_idead_desription">
+{{ content.field_living_ideas_description }}
+</div>
+
+<div class = "living_ideas_list">
+<ul class = "ul_ideas_list">
+<li>Benefit of Feature</li>
+<li>Benefit of Feature</li>
+<li>Benefit of Feature</li>
+</ul>
+</div>
+<div class = "living_ideas_link">
+{{ content.field_living_ideas_link }}
+</div>
+</div>
+  </div>
+  {% endif %}
+</div>

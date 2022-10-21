@@ -1,0 +1,50 @@
+uuid: 95584a8f-5a28-4eb7-8b6f-3120f0d81d0b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.widget.most_popular_on_maynooth.field_most_popular
+    - widget_engine.widget_type.most_popular_on_maynooth
+  module:
+    - block_field
+id: widget.most_popular_on_maynooth.default
+targetEntityType: widget
+bundle: most_popular_on_maynooth
+mode: default
+content:
+  field_most_popular:
+    type: block_field_default
+    weight: 6
+    region: content
+    settings:
+      plugin_id: ''
+      settings: {  }
+      configuration_form: full
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: -4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  user_id:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  widget_preview: true

@@ -1,0 +1,46 @@
+uuid: 5cfa5f2e-e540-4a92-8c29-2d06282b6fe7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraph
+    - node.type.page
+    - paragraphs.paragraphs_type.living_room_banner
+  module:
+    - entity_reference_revisions
+id: node.page.field_paragraph
+field_name: field_paragraph
+entity_type: node
+bundle: page
+label: Paragraph
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      living_room_banner: living_room_banner
+    negate: 0
+    target_bundles_drag_drop:
+      blog_content:
+        weight: 6
+        enabled: false
+      blog_content_text:
+        weight: 7
+        enabled: false
+      inspiration:
+        weight: 8
+        enabled: false
+      living_room_banner:
+        weight: 9
+        enabled: true
+      most_popular_:
+        weight: 11
+        enabled: true
+      product_tabs:
+        weight: 10
+        enabled: false
+field_type: entity_reference_revisions

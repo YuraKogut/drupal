@@ -1,0 +1,88 @@
+body {
+  background-image: url(https://www.meble-diana.pl/wp-content/uploads/2020/04/30880-Big-sofa-do-salonu-Tiga-Meble-Diana.pl.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .region-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    #user-login-form {
+      display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 106px;
+      width: 75%;
+      height: 208px;
+      background: #F2F2F2;
+      padding: 20px 41px;
+      border-radius: 24px;
+      .form-item-name,.form-item-pass{
+        padding-bottom: 15px;
+      }
+      #edit-actions{
+        #edit-submit{
+          background: black;
+          color: white;
+          border-radius: 5px;
+          padding: 10px;
+          width: 182px;
+          display: flex;
+          font-size: 19px;
+          justify-content: center;
+          margin: 0 auto;
+          transition: 0.3s;
+          &:hover{
+            transition: 0.3s;
+            opacity: 0.7;
+          }
+        }
+      }
+      input#edit-name,#edit-pass{
+        padding: 10px;
+        margin-left: 15px;
+        margin-bottom: 10px;
+        border-radius: 25px;
+        &::-webkit-input-placeholder { /* Edge,Goole-chrome */
+          color: lightgray;
+          font-size: 16px;
+          font-weight: 400;
+        }
+        &:focus{
+          box-shadow: 0 0 1em gray;
+          color: black;
+          font-weight: 300;
+        }
+      }
+      label {
+        font-weight: bold;
+        font-size: 24px;
+        
+        color: black;
+      }
+      label:after { content: ": " }
+      #edit-name{
+        max-width: 65%;
+      }
+      #edit-pass{
+        max-width: 65%;
+      }
+    }
+    input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+  }
+  }
+

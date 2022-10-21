@@ -1,0 +1,26 @@
+uuid: aa768ac2-bd6a-4ab8-a602-8ce18f3a1d81
+langcode: en
+status: true
+dependencies:
+  module:
+    - hd_custom_module
+  theme:
+    - hd_theme
+id: hdcustommoduleblock
+theme: hd_theme
+region: content
+weight: 0
+provider: null
+plugin: hd_custom_module_block
+settings:
+  id: hd_custom_module_block
+  label: 'HD custom module block'
+  label_display: '0'
+  provider: hd_custom_module
+  bank_name_1: PrivatBank
+  bank_percentage_1: '10'
+  bank_months_1: '1'
+  bank_name_2: Monobank
+  bank_percentage_2: '12'
+  bank_months_2: '2'
+visibility: {  }

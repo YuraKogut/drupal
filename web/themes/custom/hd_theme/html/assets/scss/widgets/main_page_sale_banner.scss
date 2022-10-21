@@ -1,0 +1,80 @@
+.widget-sale{
+display: flex;
+max-width: 1200px;
+margin: 0 auto;
+.widget-wrapper{
+  display: flex;
+    max-width: 1200px!important;
+    margin: 0 auto;
+    .widget-wrapper__left{
+      .field--name-field-image{
+        img{
+          width: 100%;
+          height: auto;
+          transition: all ease .3s;
+          &:hover {
+            transform: scale(1.01);
+        }
+        }
+      }
+    }
+    .widget-wrapper__right{
+      margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-direction: column;
+    background-color: #c4c4c4;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .field--name-field-text {
+      font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000000;
+    }
+    .field--name-field-sale {
+      font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 3;
+    display: flex;
+    align-items: center;
+    color: #842C68;
+    }
+    }
+}
+}
+@media(max-width:576px){
+  .widget-sale .widget-wrapper .widget-wrapper__right .field--name-field-text {
+    font-size: 25px;
+}
+.widget-sale .widget-wrapper .widget-wrapper__right .field--name-field-sale {
+  font-size: 25px;
+  line-height: 2;
+}
+.widget-sale .widget-wrapper .widget-wrapper__right {
+ margin: 0;
+  padding-left: 40px;
+  height: 246px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: column;
+  background-color: #c4c4c4;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.widget-sale .widget-wrapper {
+  display: flex;
+  max-width: 1200px !important;
+  margin: 0 auto;
+  flex-direction: column;
+}
+}

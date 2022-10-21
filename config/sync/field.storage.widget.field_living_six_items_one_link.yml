@@ -1,0 +1,19 @@
+uuid: eebab256-1ee1-4c5f-851f-91424f151ba4
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - widget_engine
+id: widget.field_living_six_items_one_link
+field_name: field_living_six_items_one_link
+entity_type: widget
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

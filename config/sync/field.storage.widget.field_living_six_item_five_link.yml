@@ -1,0 +1,19 @@
+uuid: 7baa23d3-bd52-4d83-bd71-eeb793e68e10
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - widget_engine
+id: widget.field_living_six_item_five_link
+field_name: field_living_six_item_five_link
+entity_type: widget
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

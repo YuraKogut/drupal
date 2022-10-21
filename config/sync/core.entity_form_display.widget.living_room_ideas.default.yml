@@ -1,0 +1,81 @@
+uuid: 433e032c-50a4-41de-8343-c45943682cef
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.widget.living_room_ideas.field_living_ideas_description
+    - field.field.widget.living_room_ideas.field_living_ideas_link
+    - field.field.widget.living_room_ideas.field_living_ideas_list
+    - field.field.widget.living_room_ideas.field_living_room_ideas_img
+    - field.field.widget.living_room_ideas.field_living_room_ideas_title
+    - field.field.widget.living_room_ideas.field_living_room_second_title
+    - image.style.thumbnail
+    - widget_engine.widget_type.living_room_ideas
+  module:
+    - image
+    - link
+    - text
+id: widget.living_room_ideas.default
+targetEntityType: widget
+bundle: living_room_ideas
+mode: default
+content:
+  field_living_ideas_description:
+    type: text_textarea_with_summary
+    weight: 3
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_living_ideas_link:
+    type: link_default
+    weight: 5
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  field_living_ideas_list:
+    type: text_textarea_with_summary
+    weight: 4
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_living_room_ideas_img:
+    type: image_image
+    weight: 1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_living_room_ideas_title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_living_room_second_title:
+    type: text_textarea_with_summary
+    weight: 2
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  name: true
+  user_id: true
+  widget_preview: true

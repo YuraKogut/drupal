@@ -1,0 +1,23 @@
+uuid: aea1eb39-938b-4ab6-be3b-e5d1ddea879c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.widget.field_living_ideas_description
+    - widget_engine.widget_type.living_room_ideas
+  module:
+    - text
+id: widget.living_room_ideas.field_living_ideas_description
+field_name: field_living_ideas_description
+entity_type: widget
+bundle: living_room_ideas
+label: 'living ideas description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+field_type: text_with_summary

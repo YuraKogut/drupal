@@ -1,0 +1,77 @@
+.view-view-blog{
+  max-width: 1200px;
+  margin: 0 auto;
+  .views-field-title{
+    margin-bottom: 10px;
+    padding-left: 10px;
+span{
+  font-size: 30px;
+  font-weight: 600;
+  border-bottom: 2px solid black;
+  margin-bottom: 10px;
+}
+  }
+  .views-field-field-image{
+    padding-left: 10px;
+    .field-content{
+      img{
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        border-radius: 1%;
+      }
+    }
+  }
+  .views-field-uid{
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    span{
+      font-size: 17px;
+    font-weight: 600;
+    }
+  }
+  .views-field-created{
+    padding-left: 10px;
+    span{
+      font-weight: 600;
+    }
+  }
+  .views-field-body{
+    padding-left: 10px;
+    .field-content{
+      font-size: 23px;
+      border-top: 2px solid;
+      border-radius: 1%;
+      padding: 10px;
+      p{
+        font-family: 'icomoon';
+      }
+    }
+  }
+  .views-field-view-node{
+    padding-left: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    a {
+      transition: all ease-in-out .3s;
+      font-weight: 600;
+          font-size: 16px;
+          border-bottom: 2px solid black;
+      &:hover {
+          color: blue;
+
+      }
+  }
+  }
+}
+@media(max-width:402px){
+  .view-view-blog .views-field-title span {
+    font-size: 26px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+}

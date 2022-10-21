@@ -1,0 +1,38 @@
+uuid: f11d46fa-f170-4117-83ac-01449f2c91b1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.widget.field_living_six_item_six_img
+    - widget_engine.widget_type.living_six_items
+  module:
+    - image
+id: widget.living_six_items.field_living_six_item_six_img
+field_name: field_living_six_item_six_img
+entity_type: widget
+bundle: living_six_items
+label: 'living six item six img'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+field_type: image

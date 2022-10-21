@@ -1,0 +1,27 @@
+uuid: b16d0088-b0bc-4150-b506-08fdc012ab2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.blog_content_text.field_blog_content_text
+    - paragraphs.paragraphs_type.blog_content_text
+  module:
+    - text
+id: paragraph.blog_content_text.default
+targetEntityType: paragraph
+bundle: blog_content_text
+mode: default
+content:
+  field_blog_content_text:
+    type: text_textarea_with_summary
+    weight: 0
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,89 @@
+.field--name-field-most-popular{
+  max-width: 1200px;
+  margin: 0 auto;
+  .block-views-blockmost-popular-block-1{
+    overflow-x: hidden;
+    h2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 49px;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #000000;
+    max-width: 1200px;
+    padding-bottom: 55px;
+    margin: 0 auto;
+    }
+  }
+  .most-popular{
+    button{
+      width: 58px;
+      height: 52px;
+      z-index: 6;
+      background: #E5E5E5;
+    }
+    .slick-prev{
+margin-left: 40px;
+&:before{
+  color: #000;
+  font-size: 30px;
+}
+    }
+    .slick-next{
+      margin-right: 40px;
+      &:before{
+        color: #000;
+        font-size: 30px;
+      }
+          }
+    .most-popular-content{
+      margin-bottom: 91px;
+      .slick-slide{
+        margin: 0 20px;
+        &:nth-child(odd){
+          .views-row{
+            padding: 47px 39px 19px 39px;
+          }
+        }
+      }
+      .slick-list{
+        margin: 0 -20px;
+      }
+      .views-row{
+        max-width: 270px;
+        background-color: #C4C4C4;
+       padding: 47px 39px 19px 39px;
+       img{
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+       }
+       .views-field-title{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24.8792px;
+        line-height: 29px;
+        text-transform: capitalize;
+        color: #000000;
+        margin: 34px 0px 9px 0px;
+        text-align: center;
+       }
+       .views-field-price__number{
+        font-family: 'Roboto';
+        font-style: normal;
+        text-align: center;
+        font-weight: 700;
+        font-size: 24.947px;
+        line-height: 29px;
+        text-transform: capitalize;
+        color: #842C68;
+       }
+      }
+    }
+  }
+}

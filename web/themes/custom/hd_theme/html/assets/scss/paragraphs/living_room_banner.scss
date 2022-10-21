@@ -1,0 +1,70 @@
+.paragraph--type--living-room-banner {
+  margin-bottom: 50px;
+  text-align: center;
+  background: #F2F2F2;
+  padding-left: 15px;
+  padding-right: 15px;
+    .field--name-field-living-banner{
+      img{
+        position: relative;
+        margin-bottom: -31px;
+        max-width: 1200px;
+        width: 100%;
+        top: -3px;
+      }
+    }
+    .field--name-field-living-banner-title{
+      position: absolute;
+      top: 53px;
+      max-width: 855px;
+      right: 0;
+      display: flex;
+      left: 221px;
+      z-index: 5;
+      flex-flow: column;
+      margin: 0 auto;
+      p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        text-align: center;
+        color: #000000;
+      }
+    }
+}
+@media(max-width:1068px){
+  .paragraph--type--living-room-banner{
+    .field--name-field-living-banner-title{
+      left: 109px;
+    }
+  }
+}
+@media(max-width:956px){
+  .paragraph--type--living-room-banner{
+    .field--name-field-living-banner-title{
+      left: 2px;
+      width: 51%;
+    }
+  }
+}
+@media(max-width:572px){
+  .paragraph--type--living-room-banner{
+    .field--name-field-living-banner-title{
+      top: 33px;
+      p{
+        font-size: 16px;
+      }
+    }
+  }
+}
+@media(max-width:572px){
+  .paragraph--type--living-room-banner{
+    .field--name-field-living-banner-title{
+      top: 33px;
+      p{
+        font-size: 11px;
+      }
+    }
+  }
+}

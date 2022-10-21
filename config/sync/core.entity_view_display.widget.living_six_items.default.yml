@@ -1,0 +1,216 @@
+uuid: b8e1f5f1-3d3b-4951-882e-af0a742f3d85
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.widget.living_six_items.field_living_six_item_five_img
+    - field.field.widget.living_six_items.field_living_six_item_five_link
+    - field.field.widget.living_six_items.field_living_six_item_five_title
+    - field.field.widget.living_six_items.field_living_six_item_four_img
+    - field.field.widget.living_six_items.field_living_six_item_four_link
+    - field.field.widget.living_six_items.field_living_six_item_four_title
+    - field.field.widget.living_six_items.field_living_six_item_one_img
+    - field.field.widget.living_six_items.field_living_six_item_six_img
+    - field.field.widget.living_six_items.field_living_six_item_six_link
+    - field.field.widget.living_six_items.field_living_six_item_six_title
+    - field.field.widget.living_six_items.field_living_six_item_three_img
+    - field.field.widget.living_six_items.field_living_six_item_three_link
+    - field.field.widget.living_six_items.field_living_six_item_two_img
+    - field.field.widget.living_six_items.field_living_six_item_two_link
+    - field.field.widget.living_six_items.field_living_six_items_one_link
+    - field.field.widget.living_six_items.field_living_six_items_one_title
+    - field.field.widget.living_six_items.field_living_six_items_three_tit
+    - field.field.widget.living_six_items.field_living_six_items_title
+    - field.field.widget.living_six_items.field_living_six_items_two_title
+    - widget_engine.widget_type.living_six_items
+  module:
+    - image
+    - link
+    - text
+id: widget.living_six_items.default
+targetEntityType: widget
+bundle: living_six_items
+mode: default
+content:
+  field_living_six_item_five_img:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 13
+    region: content
+  field_living_six_item_five_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 15
+    region: content
+  field_living_six_item_five_title:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 14
+    region: content
+  field_living_six_item_four_img:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 10
+    region: content
+  field_living_six_item_four_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 12
+    region: content
+  field_living_six_item_four_title:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 11
+    region: content
+  field_living_six_item_one_img:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_living_six_item_six_img:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 16
+    region: content
+  field_living_six_item_six_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 18
+    region: content
+  field_living_six_item_six_title:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 17
+    region: content
+  field_living_six_item_three_img:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_living_six_item_three_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  field_living_six_item_two_img:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_living_six_item_two_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 6
+    region: content
+  field_living_six_items_one_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_living_six_items_one_title:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_living_six_items_three_tit:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 8
+    region: content
+  field_living_six_items_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_living_six_items_two_title:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 5
+    region: content
+hidden:
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  user_id: true
+  widget_preview: true

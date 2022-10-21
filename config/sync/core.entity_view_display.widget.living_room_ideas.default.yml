@@ -1,0 +1,77 @@
+uuid: 9ad1b19b-6e0e-4959-a642-1293dad5a427
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.widget.living_room_ideas.field_living_ideas_description
+    - field.field.widget.living_room_ideas.field_living_ideas_link
+    - field.field.widget.living_room_ideas.field_living_ideas_list
+    - field.field.widget.living_room_ideas.field_living_room_ideas_img
+    - field.field.widget.living_room_ideas.field_living_room_ideas_title
+    - field.field.widget.living_room_ideas.field_living_room_second_title
+    - widget_engine.widget_type.living_room_ideas
+  module:
+    - image
+    - link
+    - text
+id: widget.living_room_ideas.default
+targetEntityType: widget
+bundle: living_room_ideas
+mode: default
+content:
+  field_living_ideas_description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 3
+    region: content
+  field_living_ideas_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 5
+    region: content
+  field_living_ideas_list:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 4
+    region: content
+  field_living_room_ideas_img:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_living_room_ideas_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_living_room_second_title:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  langcode: true
+  name: true
+  search_api_excerpt: true
+  user_id: true
+  widget_preview: true

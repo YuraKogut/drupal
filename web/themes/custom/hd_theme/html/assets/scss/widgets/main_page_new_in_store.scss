@@ -1,0 +1,128 @@
+.widget-block{
+  margin-bottom: 20px;
+.field--name-name{
+  padding-top: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+.field--name-field-block{
+  .views-element-container{
+    div{
+      .view-new-in-store{
+        max-width: 1200px;
+        margin: 0 auto;
+        text-align: center;
+        .view-content{
+          display: flex;
+          max-width: 1200px;
+          .views-row{
+            padding: 10px;
+          img {
+            width: 100%;
+            cursor: pointer;
+            transition: all ease .3s;
+            &:hover {
+                transform: scale(1.01);
+            }
+          }
+          .views-field-title{
+            text-align: left;
+            margin: 24px 0 12px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 33px;
+          }
+          .views-field-body{
+            text-align: left;
+            line-height: 1.5;
+            font-size: 18px;
+          }
+          .views-field-view-commerce-product{
+            text-align: left;
+            a{
+              font-family: 'Roboto';
+              font-style: normal;
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 2;
+              text-transform: capitalize;
+              color: #000000;
+              transition: 0.3s;
+              &:hover{
+                transition: 0.3s;
+                font-weight: 600;
+                text-decoration-line: underline;
+              }
+              }
+          }
+        }
+        }
+      }
+    }
+  }
+}
+}
+@media(max-width:992px){
+  .widget-block .field--name-field-block .views-element-container div .view-new-in-store .view-content .views-row .views-field-title {
+    font-size: 20px;
+}
+.widget-block .field--name-field-block .views-element-container div .view-new-in-store .view-content .views-row .views-field-body {
+  font-size: 16px;
+}
+.widget-block .field--name-field-block .views-element-container div .view-new-in-store .view-content .views-row .views-field-view-commerce-product a {
+  font-size: 18px;
+}
+}
+@media(max-width:768px){
+  .widget-block .field--name-name {
+    font-size: 35px;
+}
+}
+@media(max-width:576px){
+  .widget-block .field--name-field-block .views-element-container div .view-new-in-store .view-content .views-row img {
+    max-width: 100%!important;
+    width: 60%;
+    height: auto;
+}
+.widget-block .field--name-field-block .views-element-container div .view-new-in-store .view-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  flex-wrap: wrap;
+}
+.widget-block .field--name-field-block .views-element-container div .view-new-in-store .view-content .views-row .views-field-title {
+  font-size: 20px;
+  text-align: center;
+}
+.widget-block .field--name-field-block .views-element-container div .view-new-in-store .view-content .views-row .views-field-body {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.widget-block .field--name-field-block .views-element-container div .view-new-in-store .view-content .views-row .views-field-view-commerce-product a {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+.widget-block .field--name-name {
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+}

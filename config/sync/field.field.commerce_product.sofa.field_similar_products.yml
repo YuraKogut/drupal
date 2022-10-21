@@ -1,0 +1,29 @@
+uuid: df1cb077-9d72-4ab7-aca0-0e1c6aa6d740
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.sofa
+    - commerce_product.commerce_product_variation_type.sofa
+    - field.storage.commerce_product.field_similar_products
+id: commerce_product.sofa.field_similar_products
+field_name: field_similar_products
+entity_type: commerce_product
+bundle: sofa
+label: 'Similar products'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:commerce_product_variation'
+  handler_settings:
+    target_bundles:
+      sofa: sofa
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

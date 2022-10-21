@@ -1,0 +1,58 @@
+<div{{ attributes.addClass('widget_six_items_living_room') }}>
+  {{ title_suffix }}
+  {% if content %}
+  <div class = "six_items_title">
+  {{content.field_living_six_items_title.0}}
+  </div>
+  <div class = "wrapper">
+  <div class = "wrapper_item">
+    <a href = {{ content.field_living_six_items_one_link.0['#url'] }}
+    {{ content.field_living_six_item_one_img }}
+    <h3>
+    {{ content.field_living_six_items_one_title.0 }}
+    </h3>
+    </a>
+    </div>
+     <div class = "wrapper_item">
+    <a href = {{ content.field_living_six_item_two_link.0['#url'] }}
+    {{ content.field_living_six_item_two_img }}
+    <h3>
+    {{content.field_living_six_items_two_title.0}}
+    </h3>
+    </a>
+    </div>
+     <div class = "wrapper_item">
+    <a href = {{ content.field_living_six_item_three_link.0['#url'] }}
+    {{ content.field_living_six_item_three_img }}
+    <h3>
+    {{content.field_living_six_items_three_tit.0}}
+    </h3>
+    </a>
+    </div>
+     <div class = "wrapper_item">
+    <a href = {{ content.field_living_six_item_four_link.0['#url'] }}
+    {{ content.field_living_six_item_four_img }}
+    <h3>
+    {{content.field_living_six_item_four_title.0}}
+    </h3>
+    </a>
+    </div>
+     <div class = "wrapper_item">
+    <a href = {{ content.field_living_six_item_five_link.0['#url'] }}
+    {{ content.field_living_six_item_five_img }}
+    <h3>
+    {{content.field_living_six_item_five_title.0}}
+    </h3>
+    </a>
+    </div>
+      <div class = "wrapper_item">
+    <a href = {{ content.field_living_six_item_six_link.0['#url'] }}
+    {{ content.field_living_six_item_six_img }}
+    <h3>
+    {{content.field_living_six_item_six_title.0}}
+    </h3>
+    </a>
+    </div>
+    </div>
+  {% endif %}
+</div>

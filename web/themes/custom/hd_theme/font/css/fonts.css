@@ -1,0 +1,36 @@
+/*Підключаємо через імпорт*/
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
+/*Підключаємо через файл*/
+@font-face {
+  font-family: "Rubik Puddles";  
+  src: url("../font/RubikPuddles-Regular.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal;
+   }
+   /*Підключаємо стилі*/
+h1:first-child{
+  font-family: 'Rubik Glitch', cursive;
+}
+h1:nth-child(2n){
+  font-family: 'Send Flowers', cursive;
+}
+h1:nth-child(3n){
+  font-family: 'Rubik Puddles', cursive;
+}
+h1:nth-child(4n){
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2.8rem;
+}
+/*Адаптив*/
+@media(max-width:1024px) {
+  h1:nth-child(4n){
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 45px;
+  }
+}
+@media(max-width:320px){
+  h1:nth-child(4n){
+    font-family: 'Rubik Puddles', cursive;
+    font-size: 25px;
+  }
+}

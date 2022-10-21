@@ -1,0 +1,34 @@
+uuid: 174f2940-3291-4cc2-b754-59207e0cb847
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.living_room_banner.field_living_banner
+    - field.field.paragraph.living_room_banner.field_living_banner_title
+    - paragraphs.paragraphs_type.living_room_banner
+  module:
+    - image
+    - text
+id: paragraph.living_room_banner.default
+targetEntityType: paragraph
+bundle: living_room_banner
+mode: default
+content:
+  field_living_banner:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_living_banner_title:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  search_api_excerpt: true
